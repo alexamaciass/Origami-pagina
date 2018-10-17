@@ -1,0 +1,447 @@
+body
+{
+    color:#6D6E70;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin:50px;
+}
+#container
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+}
+header, main,footer
+{
+    display: block;
+    position: relative;
+}
+footer
+{
+    background-color: #00adee;
+    height: 33px;
+}
+header nav
+{
+    background-color: #00adee;
+    display: block;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+}
+header #foto
+{
+    background-image: url(../imagenes/fondo-portada.jpg);
+    display: block;
+    height: 280px;
+    position: relative;
+}
+header nav #logo
+{
+    background-color: #fff;
+    background-image: url(../imagenes/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 7px 7px 10px rgba(0,0,0,0.3);
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 196px;
+}
+header nav div
+{
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    vertical-align: middle;
+}
+header nav div a
+{
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+header nav div a:hover
+{
+    background-color: #fff;
+    color: #404041;
+}
+header #foto span
+{
+    background-color: rgba(64,64,65,0.6);
+    bottom: 0;
+    color:#fff;
+    display: block;
+    font-size: 42px;
+    left: 0;
+    padding: 14px 120px;
+    position: absolute;
+    right: 0;
+}
+header aside
+{
+    background-color: #fff;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 225px;
+    z-index: 2;
+}
+header aside div
+{
+    display: block;
+    height: 297px;
+    overflow: auto;
+    position: relative;
+}
+header aside >a
+{
+    background-color: #00adee;
+    color:#fff;
+    display: block;
+    font-size: 14px;
+    padding: 8px 0 9px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+header aside div a
+{
+    color: #6D6E70;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+}
+header aside div a:hover
+{
+    background-color: #404041;
+    color: #fff;
+}
+header aside div a span
+{
+    color: #00adee;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    position: relative;
+}
+header aside div a p
+{
+    margin: 0;
+}
+.columna-50
+{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    padding: 30px;
+    position: relative;
+    width: 50%;
+}
+main
+{
+    overflow: auto;
+}
+.columna-50 *
+{
+    display: block;
+    font-weight: normal;
+    margin-top: 0;
+    padding-left: 40px;
+    position: relative;
+}
+.columna-50 h1,
+.columna-50 h2
+{
+    color: #404041;
+    margin-bottom: 5px;
+}
+.columna-50 h1
+{
+    font-size: 36px;
+}
+.columna-50 h2
+{
+    font-size: 18px;
+}
+.columna-50 p
+{
+    margin-bottom: 25px;
+}
+.bullet
+{
+    background-image: url(../imagenes/bullet.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+footer *
+{
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: middle;
+}
+footer label
+{
+    font-weight: bold;
+}
+footer h3
+{
+    background-color: #404041;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 30px 9px;
+}
+footer span
+{
+    margin-left: 60px;
+}
+footer nav{
+    position: absolute;
+    background-color: #404041;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+footer nav a
+{
+    background-image: url(../imagenes/iconos-sociales.png);
+    background-repeat: no-repeat;
+    height: 33px;
+    position: relative;
+    text-indent: -9999px;
+    transition: all 0.5s ease;
+    width: 47px;
+}
+footer nav a#facebook
+{
+    background-position: 22px 5px;
+}
+footer nav a#facebook:hover
+{
+    background-position: 18px -25px;
+}
+footer nav a#youtube
+{
+    background-position: -35px 5px;
+}
+footer nav a#youtube:hover
+{
+    background-position: -35px -25px;
+}
+footer nav a#twitter
+{
+    background-position: -80px 5px;
+}
+footer nav a#twitter:hover
+{
+    background-position: -80px -25px;
+}
+
+/*PÁGINA DE FASES*/
+.columna-pequeña
+{
+    background-image: url(../imagenes/mosaico-fases.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 224px;
+}
+
+.columna-pequeña h1
+{
+    background-color: #00adee;
+    color:#fff;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 224px;
+    text-align: center;
+    text-decoration: none;
+    width: 224px;
+}
+.columna-pequeña h2
+{
+    color: #00adee;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.columna-pequeña h2:hover
+{
+    background-color: #404041;
+    color: #fff;
+}
+.columna-grande
+{
+    border-left: 2px solid #00adee;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-top: 0px;
+    padding: 30px 0px 30px 30px;
+    position: relative;
+    width: 612px;
+}
+.columna-grande span
+{
+    background-color: #00adee;
+    color:#fff;
+    display: inline-block;
+    float: left;
+    font-size: 61px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding: 1px 21px 1px 21px;
+    text-align: center;
+    text-decoration: none;
+}
+.columna-grande h1
+{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 110px;
+}
+.columna-grande h2
+{
+    color: #00adee;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-left: 110px;
+}
+.columna-grande p
+{
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 110px;
+}
+.columna-grande a
+{
+    background-color: #00adee;
+    color:#fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+#derecha
+{
+    text-align: right;
+}
+
+/*PAGINA DE DESCARGAS*/
+.columna-pequeña2
+{
+    background-image: url(../imagenes/mosaico-descargas.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 224px;
+}
+.columna-pequeña2 h1
+{
+    background-color: #00adee;
+    color:#fff;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 224px;
+    text-align: center;
+    text-decoration: none;
+    width: 224px;
+}
+.columna-pequeña2 p
+{
+    font-size: 12px;
+    font-weight: normal;
+    padding: 30px;
+    text-align: center;
+}
+.columna-grande2
+{
+    border-left: 2px solid #00adee;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-top: 0px;
+    padding: 30px 0px 30px 30px;
+    position: relative;
+    width: 612px;
+}
+.columna-grande2 h1
+{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    margin-top: 0px;
+}
+.columna-grande2 h2
+{
+    color: #00adee;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 110px;
+    margin-top: 0px;
+}
+.columna-grande2 h3
+{
+    color: #666666;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 110px;
+    margin-top: 0px;
+}
+.columna-grande2 h3:hover
+{
+    color: #404041;
+}
+.columna-grande2 span
+{
+    background-color: #00adee;
+    color:#fff;
+    display: inline-block;
+    float: left;
+    font-size: 61px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding: 1px 21px 1px 21px;
+    text-align: center;
+    text-decoration: none;
+}
+.nube
+{
+    background-image: url(../imagenes/icono-descargar.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 33px;
+    padding-left: 40px;
+    position: relative;
+    transition: all 0.5s ease;
+}
+.nube:hover
+{
+    background-position: left bottom;
+}
